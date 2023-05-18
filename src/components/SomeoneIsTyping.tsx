@@ -6,7 +6,7 @@ export const SomeoneIsTyping = () => {
   );
 
   return (
-    <div className="someone_is_typing">
+    <div className="text-xs text-gray-400">
       {someoneIsTyping ? "Someone is typing..." : ""}
     </div>
   );
